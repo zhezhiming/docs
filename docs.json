@@ -15,7 +15,7 @@
     "languages": [
       {
         "language": "en",
-        "default": true,
+        "default": false,
         "products": [
           {
             "product": "AI",
@@ -29,6 +29,39 @@
                     "pages": ["en/ai/index", "en/ai/ai-tools/cursor"]
                   }
                 ]
+              },
+              {
+                "tab": "Overview2",
+                "groups": [
+                  {
+                    "group": "Quick Start2",
+                    "pages": ["en/ai/ai-tools/windsurf"]
+                  }
+                ]
+              },
+              {
+                "tab": "Overview3",
+                "groups": [
+                  {
+                    "group": "Quick Start3",
+                    "pages": ["en/ai/agent-middleware/built-in-middleware"]
+                  }
+                ]
+              }
+            ]
+          },
+          { 
+            "product": "BI",
+            "description": "BI Module",
+            "tabs": [
+              {
+                "tab": "Overview",
+                "groups": [
+                  {
+                    "group": "Quick Start",
+                    "pages": ["en/bi/ai-tools/cursor"]
+                  }
+                ]
               }
             ]
           }
@@ -36,15 +69,53 @@
       },
       {
         "language": "zh-Hans",
+        "default": false,
         "products": [
           {
             "product": "AI",
-            "description": "AI 平台",    
-            "icon": "api",
-            "groups": [
+            "description": "AI 平台",
+            "tabs": [
               {
-                "group": "快速开始",
-                "pages": ["zh-Hans/ai/index", "zh-Hans/ai/ai-tools/cursor"]
+                "tab": "概览",
+                "groups": [
+                  {
+                    "group": "快速开始",
+                    "pages": ["zh-Hans/ai/index","zh-Hans/ai/ai-tools/cursor"]
+                  }
+                ]
+              },
+              {
+                "tab": "概览2",
+                "groups": [
+                  {
+                    "group": "快速开始",
+                    "pages": ["zh-Hans/ai/ai-tools/windsurf"]
+                  }
+                ]
+              },
+              {
+                "tab": "概览3",
+                "groups": [
+                  {
+                    "group": "快速开始3",
+                    "pages": ["zh-Hans/ai/agent-middleware/built-in-middleware"]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "product": "BI",
+            "description": "BI 平台",
+            "tabs": [
+              {
+                "tab": "概览",
+                "groups": [
+                  {
+                    "group": "快速开始",
+                    "pages": ["zh-Hans/bi/ai-tools/cursor"]
+                  }
+                ]
               }
             ]
           }

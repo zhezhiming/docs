@@ -1,0 +1,82 @@
+---
+title: "Custom Middleware"
+description: "Custom middleware development guide"
+---
+
+# Custom Middleware
+
+## Overview
+
+Custom middleware allows you to develop your own middleware to implement specific business logic and functional extensions.
+
+## Features
+
+- **Custom Development**: Develop custom middleware
+- **Flexible Configuration**: Flexibly configure middleware
+- **Functional Extension**: Extend system functionality
+- **Business Logic**: Implement business logic
+
+## Development Steps
+
+### 1. Create Middleware
+
+1. Navigate to the Agent Middleware page
+2. Click "New Middleware"
+3. Select middleware type
+4. Fill in middleware information
+5. Write middleware code
+
+### 2. Implement Middleware Logic
+
+```javascript
+// Middleware example
+async function customMiddleware(context, next) {
+  // Pre-processing
+  console.log('Before:', context.request);
+  
+  // Call next middleware
+  await next();
+  
+  // Post-processing
+  console.log('After:', context.response);
+}
+```
+
+### 3. Configure Middleware
+
+- **Execution Order**: Set middleware execution order
+- **Conditional Logic**: Configure execution conditions
+- **Parameter Configuration**: Configure middleware parameters
+
+### 4. Test and Deploy
+
+1. Test middleware functionality
+2. Verify middleware effectiveness
+3. Deploy middleware
+4. Apply to workflow
+
+## Middleware Types
+
+### Request Processing Middleware
+
+- **Request Transformation**: Transform request format
+- **Request Validation**: Validate request data
+- **Request Filtering**: Filter request content
+
+### Response Processing Middleware
+
+- **Response Formatting**: Format response data
+- **Response Compression**: Compress response content
+- **Response Caching**: Cache response results
+
+## Best Practices
+
+1. **Single Responsibility**: Each middleware should do one thing
+2. **Error Handling**: Properly handle error cases
+3. **Performance Optimization**: Optimize middleware performance
+4. **Documentation**: Write clear documentation
+
+## Related Documentation
+
+- [Built-in Middleware](/en/ai/agent-middleware/built-in-middleware)
+- [Agent Middleware](/en/ai/workflow/agent-middleware)
