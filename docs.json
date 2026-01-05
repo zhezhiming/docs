@@ -69,8 +69,8 @@
             "href": "mailto:service@xpertai.cn"
           },
           {
-            "label": "Try Chat-Kit",
-            "href": "https://xpertai.cn/docs/ai/"
+            "label": "Try XpertAI",
+            "href": "https://app.xpertai.cn/"
           }
         ],
         "products": [
@@ -264,17 +264,6 @@
                 ]
               },
               {
-                "tab": "Troubleshooting",
-                "groups": [
-                  {
-                    "group": "Errors",
-                    "pages": [
-                      "en/ai/troubleshooting/errors/recursion-limit"
-                    ]
-                  }
-                ]
-              },
-              {
                 "tab": "Plugin Development",
                 "groups": [
                   {
@@ -296,6 +285,33 @@
                       "en/ai/plugin-development/feishu-document-example/integration",
                       "en/ai/plugin-development/feishu-document-example/source",
                       "en/ai/plugin-development/feishu-document-example/transformer"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Chatkit",
+                "groups": [
+                  {
+                    "group": "Default",
+                    "pages": [
+                      "en/ai/chatkit/index",
+                      "en/ai/chatkit/chatkit-themes",
+                      "en/ai/chatkit/chatkit-widgets",
+                      "en/ai/chatkit/chatkit-tool",
+                      "en/ai/chatkit/chatkit-effect",
+                      "en/ai/chatkit/chatkit-actions"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Troubleshooting",
+                "groups": [
+                  {
+                    "group": "Errors",
+                    "pages": [
+                      "en/ai/troubleshooting/errors/recursion-limit"
                     ]
                   }
                 ]
@@ -569,8 +585,8 @@
             "href": "mailto:service@xpertai.cn"
           },
           {
-            "label": "试用 Chat-Kit",
-            "href": "https://xpertai.cn/zh-Hans/docs/ai/"
+            "label": "试用 XpertAI",
+            "href": "https://app.xpertai.cn/"
           }
         ],
         "products": [
@@ -764,17 +780,6 @@
                 ]
               },
               {
-                "tab": "故障排查",
-                "groups": [
-                  {
-                    "group": "错误",
-                    "pages": [
-                      "zh-Hans/ai/troubleshooting/errors/recursion-limit"
-                    ]
-                  }
-                ]
-              },
-              {
                 "tab": "插件开发",
                 "groups": [
                   {
@@ -796,6 +801,33 @@
                       "zh-Hans/ai/plugin-development/feishu-document-example/feishu-system-integration",
                       "zh-Hans/ai/plugin-development/feishu-document-example/feishu-document-source-strategy",
                       "zh-Hans/ai/plugin-development/feishu-document-example/feishu-document-conversion-strategy"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "Chatkit",
+                "groups": [
+                  {
+                    "group": "默认",
+                    "pages": [
+                      "zh-Hans/ai/chatkit/index",
+                      "zh-Hans/ai/chatkit/chatkit-themes",
+                      "zh-Hans/ai/chatkit/chatkit-widgets",
+                      "zh-Hans/ai/chatkit/chatkit-tool",
+                      "zh-Hans/ai/chatkit/chatkit-effect",
+                      "zh-Hans/ai/chatkit/chatkit-actions"
+                    ]
+                  }
+                ]
+              },
+              {
+                "tab": "故障排查",
+                "groups": [
+                  {
+                    "group": "错误",
+                    "pages": [
+                      "zh-Hans/ai/troubleshooting/errors/recursion-limit"
                     ]
                   }
                 ]

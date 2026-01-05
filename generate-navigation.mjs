@@ -178,8 +178,9 @@ const TAB_ORDER_BY_PRODUCT = {
     "workflow",
     "ai-assistant",
     "agent-middleware",
-    "troubleshooting",
     "plugin-development",
+    "chatkit",
+    "troubleshooting",
     "tutorial",
   ],
   bi: [
